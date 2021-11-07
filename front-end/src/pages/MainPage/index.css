@@ -1,0 +1,355 @@
+/* full screen container */
+.fsc-container-wrapper{
+  background-size: cover;
+  background-position: bottom;
+}
+
+.fsc-container{
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero-title{
+  color: white;
+  font-size: 60px;
+  font-weight: normal;
+  font-family: "SybilWitch", sans-serif;
+}
+
+.hero-footer{
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-footer-line{
+  width: 100vw;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+.hero-footer-scroll{
+  width: 50px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.hero-title{
+  margin-bottom: 40px;
+}
+
+.hero-link{
+  background-color: white;
+  color: #000;
+  padding: 13px 30px;
+  font-size: 28px;
+  border-radius: 20px;
+  transition: background-color .5s ease, color .5s ease;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  font-family: "QuiteMagical", sans-serif;
+}
+
+.hero-content .hero-link{
+  cursor: not-allowed;
+}
+
+.hero-link:hover{
+  background-color: black;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-section{
+  padding: 80px 0;
+}
+
+.welcome{
+  width: 1280px;
+  height: 640px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+
+.welcome-text-block{
+  padding: 5% 0 0 30%; 
+}
+
+.welcome-title{
+  font-size: 62px;
+  color: white;
+  font-weight: normal;
+  font-family: "SybilWitch",sans-serif;
+  margin-bottom: 30px;
+}
+
+.welcome-text{
+  font-size: 40px;
+  color: white;
+  max-width: 90%;
+}
+
+.showcase-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase-text-wrapper{
+  margin-right: 100px;
+}
+
+.showcase-image{
+  width: 412px;
+  height: 412px;
+  background-size: cover;
+  border: 5px solid #FFFFFF;
+  border-radius: 50px;
+}
+
+.showcase-text{
+  font-size: 42px;
+  color: white;
+  max-width: 400px;
+  text-align: center;
+}
+
+.roadmap-section{
+  width: 1280px;
+  height: 640px;
+  background-size: cover;
+  background-position: center;
+  margin: 80px auto 0;
+  position: relative;
+  border-radius: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 3px solid white;
+}
+
+.roadmap-witch-gif{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  transform: scaleX(-1);
+  width: 250px;
+  height: auto;
+}
+
+.roadmap-title{
+  font-family: "SybilWitch", sans-serif;
+  text-transform: uppercase;
+  font-size: 62px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.roadmap-text{
+  color: white;
+  font-size: 40px;
+  max-width: 60%;
+  text-align: right;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.roadmap-text-wrapper{
+  text-align: right;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.rarity-section{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rarity-nft{
+  width: 412px;
+  height: auto;
+  border: 5px solid #FFFFFF;
+  border-radius: 50px;
+}
+
+.rarity-content-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rarity-title{
+  font-family: "SybilWitch", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 62px;
+  margin-bottom: 25px;
+}
+
+.rarity-text-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.rarity-text{
+  font-size: 36px;
+  color: white;
+  max-width: 45%;
+  margin-right: 50px;
+  line-height: 45px;
+}
+
+.rarity-text:last-child{
+  margin: 0;
+}
+
+.rarity-input{
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  font-size: 40px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+  font-family: 'QuiteMagical', sans-serif;
+  cursor: not-allowed;
+  transition: background-color .5s ease, color .5s ease;
+}
+
+.rarity-input:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.rarity-input-wrapper{
+  margin-bottom: 25px;
+  width: 40%;
+}
+
+.rarity-input:focus{
+  outline: none;
+}
+
+.faq-section{
+  margin-top: 80px;
+}
+
+.faq-title{
+  font-family: "SybilWitch", sans-serif;
+  text-transform: uppercase;
+  font-size: 62px;
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.faq-row {
+  margin-bottom: 20px !important;
+  border-radius: 25px !important;
+  background-color: #45007A !important;
+  padding-left: 50px !important;
+}
+
+.faq-row:last-child{
+  margin-bottom: 0 !important;
+}
+
+.row-title .icon-wrapper{
+  max-width: initial !important;
+  max-height: initial !important;
+  width: 35px;
+}
+
+.team-section{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.team-block-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.team-title{
+  font-family: "SybilWitch", sans-serif;
+  text-transform: uppercase;
+  font-size: 62px;
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-image{
+  width: 250px;
+  height: auto;
+  border: 5px solid #FFFFFF;
+  border-radius: 50px;
+  margin-bottom: 25px;
+}
+
+.team-name{
+  font-size: 42px;
+  color: white;
+}
+
+.anchor-tag{
+  position: absolute;
+  top: -200px;
+}
+
+/* tooltip styling */
+.type-light{
+  font-size: 18px !important;
+}
+
+@media (max-width: 1280px) {
+  
+}

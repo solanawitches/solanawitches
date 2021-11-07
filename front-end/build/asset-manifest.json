@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7983aa84.chunk.css",
+    "main.js": "/static/js/main.cf1f3d24.chunk.js",
+    "main.js.map": "/static/js/main.cf1f3d24.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1b8dd01c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1b8dd01c.js.map",
+    "static/css/2.ae9e5f60.chunk.css": "/static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.c09163a6.chunk.js": "/static/js/2.c09163a6.chunk.js",
+    "static/js/2.c09163a6.chunk.js.map": "/static/js/2.c09163a6.chunk.js.map",
+    "static/js/3.4fae550c.chunk.js": "/static/js/3.4fae550c.chunk.js",
+    "static/js/3.4fae550c.chunk.js.map": "/static/js/3.4fae550c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ae9e5f60.chunk.css.map": "/static/css/2.ae9e5f60.chunk.css.map",
+    "static/css/main.7983aa84.chunk.css.map": "/static/css/main.7983aa84.chunk.css.map",
+    "static/js/2.c09163a6.chunk.js.LICENSE.txt": "/static/js/2.c09163a6.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/SybilWitch.315eadee.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b8dd01c.js",
+    "static/css/2.ae9e5f60.chunk.css",
+    "static/js/2.c09163a6.chunk.js",
+    "static/css/main.7983aa84.chunk.css",
+    "static/js/main.cf1f3d24.chunk.js"
+  ]
+}

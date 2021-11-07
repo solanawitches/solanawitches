@@ -1,0 +1,36 @@
+@import "../fonts.css";
+
+html {
+  overscroll-behavior: none
+}
+
+body{
+  font-family: "QuiteMagical", sans-serif;
+  overflow-x: hidden;
+}
+
+.bg-container{
+	background-color: #150026;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* animation: gradient 15s ease infinite; */
+}
+
+.max-width-container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
